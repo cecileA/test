@@ -1,0 +1,5 @@
+#Fichier qui sert à définir ce qu'on ne veut pas qui passe à GitHub
+
+#On ne remonte pas tout les fichiers contenu dans nbproject
+/nbproject/* 
+!nbprojet.xml  #sauf ce fichier
