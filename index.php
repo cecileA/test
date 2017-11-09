@@ -1,5 +1,5 @@
 <form action="telecharger.php">
-Choisir la pi�ce que vous souhaitez obtenir
+Choisir la pièce que vous souhaitez obtenir
 <?php echo liste_deroulante("pieces1.xml");
 ?>
 <br />Puis cliquez sur [télécharger]
