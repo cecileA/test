@@ -1,9 +1,9 @@
 <form action="telecharger.php">
-Choisir la pièce que vous souhaitez obtenir
+Choisir la piï¿½ce que vous souhaitez obtenir
 <?php echo liste_deroulante("pieces1.xml");
 ?>
-<br />Puis cliquez sur [télécharger]
-<input type="submit" value="Télécharger"/> <br /><br />
+<br />Puis cliquez sur [tÃ©lÃ©charger]
+<input type="submit" value="TÃ©lÃ©charger"/> <br /><br />
 </form>
 
 <?php
@@ -30,7 +30,7 @@ function liste_deroulante($fichier_XML)
     
         
     }
-    //Création de la liste
+    //Crï¿½ation de la liste
     $name = $ma_liste->attributes()->name;
     $listed = '<select name="'.$name.'">';
     foreach($ma_liste->children() as $ligne)
